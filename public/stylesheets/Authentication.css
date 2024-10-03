@@ -1,0 +1,170 @@
+*{
+margin: 0;
+padding: 0;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html,body{
+
+    background-color: #c9ccd1;
+      display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+   width: 100%;
+   height: 100%;
+}
+
+
+.discription{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height:100%;
+    justify-content: center;
+    align-items: center;
+
+}
+.discription h3{
+    font-size: 200%;
+}
+.discription p{
+    padding-top: 3%;
+padding-left: 10%;
+font-size: 120%;
+}
+
+
+
+
+
+
+
+
+
+.signup-container{
+    border:1px solid black;
+    width: 100%;
+    height: 100%;
+    border-radius: .5vw;
+}
+.title{
+    padding-left: 2%;
+    border-bottom: 1px solid black;
+    
+    font-size: 150%;
+    font-weight: bold;
+}
+.title p{
+    font-size: 60%;
+    color: gray;
+}
+.data{
+    height: 100%;
+}
+.name{
+display: flex;
+justify-content: space-evenly;
+width: 100%;
+margin-top: 2%;
+margin-bottom: 2%;
+height: 8%;
+}
+.name input{
+    width: 43%;
+    padding: .5vw;
+    border-radius: .5vw;
+    outline: none;
+    border: none;
+    height: 80%;
+}
+.name input::placeholder{
+    font-size: 120%;
+}
+.dob{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 4%;
+    height: 15%;
+
+}
+.dob select{
+       width: 30%;
+  padding-left: 3%;
+    border-radius: .5vw;
+    height: 130%;
+    font-size: 130%;
+    
+}
+.gender{
+    display: flex;
+    align-items: center;
+    margin-right: 4%;
+    margin-top: 2.5%;
+    margin-left: 1%;
+    justify-content: space-evenly;
+    height: 5%;
+}
+.gender-select{
+   height: 6vh;
+    width: 30%;
+    border-radius: .5vw;
+    background-color: white;
+    font-size: 130%;  
+  
+}
+.user-info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    justify-content: center;
+    align-items: center;
+}
+.user-info input{
+    width: 90%;
+    padding: .5vw;
+    border-radius: .5vw;
+    outline: none;
+    border: none;
+    height: 5vh;
+
+}
+#password{
+    margin-top: 3%;
+}
+.terms-and-condition{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.terms-and-condition p{
+    width: 90%;
+    height: 10%;
+    text-wrap: balance;
+    font-size: 100%;
+}
+
+#signup-button{
+   width: 80%;
+   margin-top: 4%;
+   margin-left: 10%;
+ height: 10%;
+   border:none;
+   border-radius: .5vw;
+   font-size: 120%;
+   font-weight: bold;
+}
+.already-account{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+#login-toggle{
+    color: blue;
+    cursor: pointer;
+}
